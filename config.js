@@ -5,21 +5,21 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 //═══════[Required Variables]════════\\
 global.audio= "" ;  
 global.video= "" ;
-global.devs = "923184474176"
+global.devs = "917002015750"
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL||""                       // put your app url here,
-global.email="samsamsun789@gmail.com"
-global.location="Lahore,Punjab,Pakistan"
+global.email="himojoit@gmail.com"
+global.location="SOVIET UNION"
 global.mongodb= process.env.MONGODB_URI || ""
 global.DATABASE_URI=process.env.DATABASE_URL
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.scan = "https://suhail-md-vtsf.onrender.com/";
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
-global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl = process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website =process.env.GURL|| "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
+global.github=process.env.GITHUB|| "https://github.com/Himasopn/Suhail-Md";
+global.gurl = process.env.GURL  || "https://wa.me/917002015750?text=%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82%20!%F0%9F%92%8C";
+global.website =process.env.GURL|| "https://wa.me/917002015750?text=%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82%20!%F0%9F%92%8C" ; 
+global.THUMB_IMAGE=process.env.THUMB_IMAGE|| "https://telegra.ph/file/94983d0cd306b252dd2da.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -41,8 +41,8 @@ module.exports = {
  
   author: process.env.PACK_AUTHER || "Suhail-MD",
   packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  botname : process.env.BOT_NAME  || "Ａｎｙａ",
+  ownername:process.env.OWNER_NAME|| "AS<3",
 
 
   sessionName:process.env.SESSION_ID|| "",  // PUT SESSION ID HERE 

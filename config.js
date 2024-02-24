@@ -7,7 +7,7 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="samsamsun789@gmail.com"
+global.email ="himojoit@gmail.com"
 global.location="Lahore,Pakistan."
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
@@ -16,24 +16,24 @@ global.DATABASE_URI = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/d5b1c3544fedc23e11a06.jpg" ; // SET LOGO FOR IMAGE 
+global.gurl  =process.env.GURL  || "https://wa.me/917002015750?text=%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82%F0%9F%92%8C%3C3";
+global.website=process.env.GURL || "https://wa.me/917002015750?text=%D0%BF%D1%80%D0%B8%D0%B2%D0%B5%D1%82%F0%9F%92%8C%3C3" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/04381fb730cc3660f8170.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
 global.devs = "923184474176" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "917002015750";
 
 
 
 
 //========================= [ BOT SETTINGS ] =========================\\
-global.style = process.env.STYLE   || '5',  // put '1' to "5" here to check bot styles
-global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
+global.style = process.env.STYLE   || '2',  // put '1' to "5" here to check bot styles
+global.flush = process.env.FLUSH   || "true"; // Make it "true" if bot not responed
 global.gdbye = process.env.GOODBYE || "false"; 
-global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
+global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 3,
 global.disablepm = process.env.DISABLE_PM || "false",
@@ -64,12 +64,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
-  caption : process.env.CAPTION || "©sᴜʜᴀɪʟ²²¹-ᴍᴅ" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "Ｙａｅ Ｍｉｋｏ💌" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Suhail-MD",
-  packname: process.env.PACK_NAME || "♥️",
-  botname : process.env.BOT_NAME  || "sᴜʜᴀɪʟ-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "It'x Suhail",
+  author : process.env.PACK_AUTHER|| "𝗔𝗦⚛️         ╰┈➤₊₉₁₇₀₀₂₀₁₅₇₅₀          𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙢𝙖𝙙𝙚 𝙗𝙮 𝙗𝙤𝙩💌",
+  packname: process.env.PACK_NAME || "Ｙａｅ Ｍｉｋｏ💌",
+  botname : process.env.BOT_NAME  || "Ｙａｅ Ｍｉｋｏ💌",
+  ownername:process.env.OWNER_NAME|| "𝗔𝗦🚩",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
@@ -84,7 +84,7 @@ module.exports = {
 
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "SUHAIL",
 
 
